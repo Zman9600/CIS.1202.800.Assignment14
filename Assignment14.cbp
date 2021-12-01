@@ -25,9 +25,11 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Car.h" />
+		<Unit filename="include/Truck.h" />
 		<Unit filename="include/Vehicle.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Car.cpp" />
+		<Unit filename="src/Truck.cpp" />
 		<Unit filename="src/Vehicle.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
