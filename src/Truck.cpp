@@ -25,5 +25,5 @@ void Truck::setTowingCapacity(int val)
 void Truck::displayInfo()
 {
     Vehicle::displayInfo();
-    std::cout << "Towing Capacity: " << towingCapacity;
+    std::cout << "Towing Capacity: " << towingCapacity << std::endl;
 }

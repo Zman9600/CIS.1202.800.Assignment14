@@ -18,7 +18,32 @@ int main()
     getline(cin, manufacturer);
     cout << "Enter vehicle year: ";
     cin >> year;
+    cout << endl;
     Vehicle vehicle(manufacturer, year);
     vehicle.displayInfo();
+
+    cout << endl << "Enter car manufacturer: ";
+    cin.ignore(100, '\n');
+    getline(cin, manufacturer);
+    cout << "Enter car year: ";
+    cin >> year;
+    cout << "Enter number of doors: ";
+    int doors;
+    cin >> doors;
+    cout << endl;
+    Car car(manufacturer, year, doors);
+    car.displayInfo();
+
+    cout << endl << "Enter truck manufacturer: ";
+    cin.ignore(100, '\n');
+    getline(cin, manufacturer);
+    cout << "Enter truck year: ";
+    cin >> year;
+    cout << "Enter towing capacity: ";
+    int capacity;
+    cin >> capacity;
+    cout << endl;
+    Truck truck(manufacturer, year, capacity);
+    truck.displayInfo();
     return 0;
 }

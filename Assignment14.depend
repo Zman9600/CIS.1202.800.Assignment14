@@ -1,6 +1,10 @@
 # depslib dependency file v1.0
-1584201820 source:g:\zack\documents\codeblocks\assignment14\main.cpp
+1638383633 source:g:\zack\documents\codeblocks\assignment14\main.cpp
 	<iostream>
+	"Truck.h"
+	"Car.h"
+	"Vehicle.h"
+	<string>
 
 1638326728 source:g:\zack\documents\codeblocks\assignment14\src\vehicle.cpp
 	"Vehicle.h"
@@ -9,7 +13,7 @@
 1638326685 g:\zack\documents\codeblocks\assignment14\include\vehicle.h
 	<string>
 
-1638327652 source:g:\zack\documents\codeblocks\assignment14\src\car.cpp
+1638383733 source:g:\zack\documents\codeblocks\assignment14\src\car.cpp
 	"Car.h"
 	<iostream>
 
